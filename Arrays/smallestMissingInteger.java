@@ -10,13 +10,6 @@ public class smallestMissingInteger {
             int res = -1;
             int[] ans = new int[n + 1];
 
-
-
-            // Initialize the array with zeros
-            for (int k = 0; k < ans.length; k++) {
-                ans[k] = 0;
-            }
-
             // Fill the array with positive integers from nums
             for (int i = 0; i < n; i++) {
                 if (nums[i] > 0 && nums[i] <= n) {
