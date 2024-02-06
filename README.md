@@ -1,2 +1,2 @@
-# Alpha
+# Alpha awesome
 Java+DSA
